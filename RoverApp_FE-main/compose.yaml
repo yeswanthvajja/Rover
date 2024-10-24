@@ -1,0 +1,7 @@
+services:
+  app:
+    image: ghcr.io/kiranviswanathb/roverapp:latest
+    ports:
+      - "8888:8888"
+    env_file:
+      - .env
